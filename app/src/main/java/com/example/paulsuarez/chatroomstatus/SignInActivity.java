@@ -19,7 +19,7 @@ public class SignInActivity extends AppCompatActivity {
 
     @OnClick(R.id.signin)
     public void signin() {
-        String username = mUsername.getText().toString();
+        String username = mUsernameInput.getText().toString();
 
         Intent intent = new Intent(this, StatusActivity.class);
         intent.putExtra("username", username);
