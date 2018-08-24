@@ -6,6 +6,11 @@ import android.support.v7.widget.RecyclerView;
 
 public class AdapterStatus extends RecyclerView.Adapter<AdapterStatus.MyStatusViewHolder> {
 
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
