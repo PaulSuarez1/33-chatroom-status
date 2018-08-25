@@ -13,4 +13,5 @@ public class ConstructorStatus {
         this.username = username;
         this.status = status;
         this.statusText = statusText;
+    }
 }
