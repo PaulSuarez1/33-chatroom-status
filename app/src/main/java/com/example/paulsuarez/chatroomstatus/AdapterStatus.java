@@ -23,7 +23,7 @@ public class AdapterStatus extends RecyclerView.Adapter<AdapterStatus.MyStatusVi
     @Override
     public MyStatusViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.status_item, parent, false);
+        View view = inflater.inflate(R.layout.activity_constructor, parent, false);
 
         MyStatusViewHolder vh = new MyStatusViewHolder(view);
         return vh;
