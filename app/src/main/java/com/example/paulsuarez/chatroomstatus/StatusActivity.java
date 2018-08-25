@@ -44,7 +44,7 @@ public class StatusActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         mDatabase = FirebaseDatabase.getInstance();
-        mUsers = mDatabase.getReferences("users");
+        mUsers = mDatabase.getReference("users");
 
         attachListeners();
         initializeUsername();

@@ -19,7 +19,7 @@
         android:id="@+id/controls"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent">
 
@@ -32,20 +32,20 @@
 
         <ImageView
             android:id="@+id/setOnline"
-            android:layout_width="45sp"
-            android:layout_height="45sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
             android:src="@drawable/green" />
 
         <ImageView
             android:id="@+id/setAway"
-            android:layout_width="45sp"
-            android:layout_height="45sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
             android:src="@drawable/yellow" />
 
         <ImageView
             android:id="@+id/setOffline"
-            android:layout_width="45sp"
-            android:layout_height="45sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
             android:src="@drawable/red" />
 
     </LinearLayout>
